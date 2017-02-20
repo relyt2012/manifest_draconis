@@ -1,1 +1,9 @@
-# manifest_draconis
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>   
+    <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1"/>
+    <project path="device/zte/draconis" name="relyt2012/device_zte_draconis" remote="github" revision="common" />
+    <project path="vendor/zte/draconis" name="relyt2012/vendor_zte_draconis" remote="github" revision="master" />
+    <project path="kernel/zte/draconis" name="relyt2012/kernel_zte_draconis" remote="github" revision="n7.1.1" />
+    <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="github" revision="cm-14.1" />
+    <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
+</manifest>
